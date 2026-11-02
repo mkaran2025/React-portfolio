@@ -22,4 +22,4 @@ Modern personal portfolio website built using React.js, Vite and Tailwind CSS.
 Clone the project:
 
 ```bash
-git clone https://github.com/mkaran2025/karan-portfolio.git
+git clone https://github.com/mkaran2025/React-portfolio.git
