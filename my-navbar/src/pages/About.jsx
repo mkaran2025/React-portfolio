@@ -16,7 +16,6 @@ const About = () => {
           <div className="absolute -bottom-40 -right-40 w-96 h-96 bg-cyan-400/10 rounded-full blur-3xl" />
 
           <div className="relative z-10 grid md:grid-cols-2 gap-12 items-center">
-
             {/* LEFT */}
             <div className="flex flex-col items-center md:items-start text-center md:text-left">
               <h2 className="text-3xl md:text-4xl font-extrabold mb-12">
@@ -32,7 +31,6 @@ const About = () => {
                 />
               </div>
             </div>
-
             {/* RIGHT */}
             <div className="space-y-6">
 
@@ -63,22 +61,22 @@ const About = () => {
               </div>
 
               {/* Backend */}
-              <div className="group border border-gray-800 rounded-2xl p-6 hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500/10 transition">
+             <div className="group border border-gray-800 rounded-2xl p-6 hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500/10 transition">
                 <h3 className="text-xl font-semibold mb-2 group-hover:text-blue-400">
-                  Backend (Learning)
+                  Backend Development
                 </h3>
                 <p className="text-gray-400 text-sm">
-                  Node.js, Express & REST APIs basics.
+                  Working with Node.js, Express.js, MongoDB, REST APIs, and MERN Stack development.
                 </p>
               </div>
 
               {/* Database */}
-              <div className="group border border-gray-800 rounded-2xl p-6 hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500/10 transition">
+             <div className="group border border-gray-800 rounded-2xl p-6 hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500/10 transition">
                 <h3 className="text-xl font-semibold mb-2 group-hover:text-blue-400">
                   Database & Tools (Learning)
                 </h3>
                 <p className="text-gray-400 text-sm">
-                  SQL basics, CRUD & data handling.
+                  MongoDB, CRUD Operations, Database Management, and Git/GitHub.
                 </p>
               </div>
 
