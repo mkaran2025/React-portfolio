@@ -2,15 +2,20 @@ import Navbar from "../components/Navbar";
 import { motion } from "framer-motion";
 import { FaHtml5, FaCss3Alt, FaReact, FaJs, FaGithub } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress, SiMongodb } from "react-icons/si";
 
 const Experience = () => {
   const techStack = [
     { icon: <FaHtml5 />, color: "text-orange-500", name: "HTML5" },
-    { icon: <FaCss3Alt />, color: "text-blue-500", name: "CSS3" },
-    { icon: <FaJs />, color: "text-yellow-400", name: "JavaScript" },
-    { icon: <FaReact />, color: "text-cyan-400", name: "React" },
-    { icon: <SiTailwindcss />, color: "text-sky-400", name: "Tailwind CSS" },
-    { icon: <FaGithub />, color: "text-gray-300", name: "GitHub" },
+  { icon: <FaCss3Alt />, color: "text-blue-500", name: "CSS3" },
+  { icon: <FaJs />, color: "text-yellow-400", name: "JavaScript" },
+  { icon: <FaReact />, color: "text-cyan-400", name: "React" },
+  { icon: <SiTailwindcss />, color: "text-sky-400", name: "Tailwind CSS" },
+  { icon: <FaNodeJs />, color: "text-green-500", name: "Node.js" },
+  { icon: <SiExpress />, color: "text-gray-300", name: "Express.js" },
+  { icon: <SiMongodb />, color: "text-green-400", name: "MongoDB" },
+  { icon: <FaGithub />, color: "text-gray-300", name: "GitHub" },
   ];
 
   const experienceCards = [
@@ -33,14 +38,15 @@ const Experience = () => {
       delay: 0.1,
     },
     {
-      title: "Web Developer",
-      date: "",
-      tasks: [
-        "Create static and dynamic websites.",
-        "Work with HTML, CSS, and JavaScript.",
-      ],
-      delay: 0.2,
-    },
+  title: "MERN Stack Developer",
+  date: "Learning & Development",
+  tasks: [
+    "Build responsive web applications using React.js.",
+    "Develop REST APIs using Node.js and Express.js.",
+    "Manage application data using MongoDB."
+  ],
+  delay: 0.2,
+},,
   ];
 
   return (
@@ -73,6 +79,7 @@ const Experience = () => {
               </div>
             ))}
           </div>
+
 
           {/* Experience Cards */}
           <div className="space-y-6">
