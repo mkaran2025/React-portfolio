@@ -21,23 +21,24 @@ const Projects = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
           {/* Project Card 1 */}
           <div className="group bg-[#020617] border border-gray-800 rounded-2xl overflow-hidden transition-all duration-300 hover:border-blue-500 hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10">
             <div className="overflow-hidden">
               <img
-                src={project1}
-                alt="Portfolio Website"
+                src={project3}
+                alt="Cafe Website"
                 className="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="p-7">
-              <h3 className="text-2xl font-semibold mb-3">BlogWeb Website</h3>
+              <h3 className="text-2xl font-semibold mb-3">Portfolio Website</h3>
               <p className="text-gray-400 text-sm mb-6 leading-relaxed">
-                A responsive Blog Website built with HTML, CSS, and JavaScript, featuring a modern layout, blog posts, sidebar, search functionality, and smooth navigation.
+                A responsive Portfolio Website built with React and Tailwind CSS, featuring smooth animations, dynamic content, and sections to showcase skills and projects.
               </p>
 
               <div className="flex flex-wrap gap-3 mb-6">
-                {['HTML', 'CSS', 'JavaScript'].map((tech) => (
+                {['React', 'Tailwind'].map((tech) => (
                   <span
                     key={tech}
                     className="text-xs px-4 py-1.5 rounded-full bg-gray-800 text-gray-300"
@@ -48,15 +49,16 @@ const Projects = () => {
               </div>
 
               <a
-                href="https://your-portfolio-link.com"
+                href="https://mellifluous-liger-199647.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-500 font-medium"
+                className="text-blue-400 hover:text-blue-500 font-medium transition-colors duration-300"
               >
                 View Project →
               </a>
             </div>
           </div>
+
 
           {/* Project Card 2 */}
           <div className="group bg-[#020617] border border-gray-800 rounded-2xl overflow-hidden transition-all duration-300 hover:border-blue-500 hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10">
@@ -95,23 +97,25 @@ const Projects = () => {
             </div>
           </div>
 
+
           {/* Project Card 3 */}
           <div className="group bg-[#020617] border border-gray-800 rounded-2xl overflow-hidden transition-all duration-300 hover:border-blue-500 hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/10">
             <div className="overflow-hidden">
               <img
-                src={project3}
-                alt="Cafe Website"
+                src={project1}
+                alt="Portfolio Website"
                 className="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="p-7">
-              <h3 className="text-2xl font-semibold mb-3">Portfolio Website</h3>
+              <h3 className="text-2xl font-semibold mb-3">Employee Management System</h3>
               <p className="text-gray-400 text-sm mb-6 leading-relaxed">
-                A responsive Portfolio Website built with React and Tailwind CSS, featuring smooth animations, dynamic content, and sections to showcase skills and projects.
+                Developing a MERN Stack Employee Management System to manage employee data with a responsive and user-friendly interface.
+
               </p>
 
               <div className="flex flex-wrap gap-3 mb-6">
-                {['React', 'Tailwind'].map((tech) => (
+                {['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'Tailwind CSS'].map((tech) => (
                   <span
                     key={tech}
                     className="text-xs px-4 py-1.5 rounded-full bg-gray-800 text-gray-300"
@@ -122,15 +126,16 @@ const Projects = () => {
               </div>
 
               <a
-                href="https://mellifluous-liger-199647.netlify.app/"
+                href="https://your-portfolio-link.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-500 font-medium transition-colors duration-300"
+                className="text-blue-400 hover:text-blue-500 font-medium"
               >
                 View Project →
               </a>
             </div>
           </div>
+
         </div>
       </section>
     </div>
