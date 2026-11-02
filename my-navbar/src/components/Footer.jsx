@@ -56,7 +56,7 @@ const Footer = () => {
 
             {/* GitHub */}
             <a
-              href="https://github.com/mkaran2025/Portfolio-website-project/blob/main/README.md"
+              href="https://github.com/mkaran2025?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
