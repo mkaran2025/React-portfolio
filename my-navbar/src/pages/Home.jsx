@@ -45,7 +45,6 @@ const Home = () => {
           >
             {roles[roleIndex]}
           </motion.p>
-
           {/* NAME */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-extrabold leading-tight mb-6">
             Hi, I’m{" "}
@@ -56,13 +55,13 @@ const Home = () => {
 
           {/* DESCRIPTION */}
           <p className="text-gray-400 mb-10 max-w-xl mx-auto md:mx-0 text-base md:text-lg leading-relaxed">
-            A passionate Frontend Developer focused on building modern,
-            responsive, and user-friendly web interfaces. I work with{" "}
+            A passionate Frontend & MERN Stack Developer focused on building modern,
+            responsive, and user-friendly web applications. I work with{" "}
             <span className="text-gray-300">
-              HTML, CSS, JavaScript, React, and Tailwind CSS
+              HTML, CSS, JavaScript, React.js, Tailwind CSS, Node.js, Express.js, and MongoDB
             </span>
-            , and I’m continuously improving my skills by building real-world
-            projects.
+            , and I’m continuously improving my full-stack development skills by
+            building real-world projects.
           </p>
 
           {/* CONTACT BUTTON */}
