@@ -23,11 +23,11 @@ const About = () => {
               </h2>
 
               <div className="relative group">
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-cyan-400/20 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition duration-500" />
+                <div className="absolute inset-0 bg-linear-to-r from-blue-500/20 to-cyan-400/20 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition duration-500" />
                 <img
                   src={aboutImg}
                   alt="Developer Illustration"
-                  className="relative z-10 w-[260px] sm:w-[280px] md:w-[320px] drop-shadow-[0_25px_45px_rgba(0,0,0,0.45)] transition-all duration-500 group-hover:-translate-y-2 group-hover:scale-105"
+                  className="relative z-10 w-65 sm:w-70 md:w-[320px] drop-shadow-[0_25px_45px_rgba(0,0,0,0.45)] transition-all duration-500 group-hover:-translate-y-2 group-hover:scale-105"
                 />
               </div>
             </div>
@@ -61,7 +61,7 @@ const About = () => {
               </div>
 
               {/* Backend */}
-             <div className="group border border-gray-800 rounded-2xl p-6 hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500/10 transition">
+              <div className="group border border-gray-800 rounded-2xl p-6 hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500/10 transition">
                 <h3 className="text-xl font-semibold mb-2 group-hover:text-blue-400">
                   Backend Development
                 </h3>
@@ -71,7 +71,7 @@ const About = () => {
               </div>
 
               {/* Database */}
-             <div className="group border border-gray-800 rounded-2xl p-6 hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500/10 transition">
+              <div className="group border border-gray-800 rounded-2xl p-6 hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500/10 transition">
                 <h3 className="text-xl font-semibold mb-2 group-hover:text-blue-400">
                   Database & Tools (Learning)
                 </h3>

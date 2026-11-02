@@ -49,7 +49,7 @@ const Home = () => {
           {/* NAME */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-extrabold leading-tight mb-6">
             Hi, I’m{" "}
-            <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-blue-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
               Karan Singh
             </span>
           </h1>
@@ -86,7 +86,7 @@ const Home = () => {
           <motion.img
             src={girlImg}
             alt="Frontend Developer Illustration"
-            className="w-[220px] sm:w-[260px] md:w-[320px] lg:w-[360px] object-contain drop-shadow-2xl"
+            className="w-55 = 220px sm:w-65 = 260px  md:w-[320px] lg:w-90 = 360px object-contain drop-shadow-2xl"
             animate={{ y: [0, -12, 0] }}
             transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
           />
