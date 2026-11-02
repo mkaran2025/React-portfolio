@@ -1,7 +1,6 @@
 import Navbar from "../components/Navbar";
 import aboutImg from "../assets/About.png";
-import resume from "../assets/Karan_Singh_resume.pdf";
-
+import resume from "../assets/Karan_Singh_resume_new.pdf";
 
 const About = () => {
   return (
